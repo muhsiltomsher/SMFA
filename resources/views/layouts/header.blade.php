@@ -3,19 +3,19 @@
     <nav class="w-full flex justify-center">
         <ul class="flex space-x-16">
             <li>
-                <a href="#about" class="text-lg font-serif text-[#E1C6A6] tracking-wide border-b-2 border-[#E1C6A6] pb-1">ABOUT US</a>
+                <a href="{{ route('about') }}" class="text-lg font-serif text-[#E1C6A6] tracking-wide border-b-2 border-[#E1C6A6] pb-1">ABOUT US</a>
             </li>
             <li>
-                <a href="#core" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">CORE FUNCTIONS</a>
+                <a href="{{ route('core-functions') }}" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">CORE FUNCTIONS</a>
             </li>
             <li>
-                <a href="#governance" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">CORPORATE GOVERNANCE</a>
+                <a href="{{ route('corporate-governance') }}" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">CORPORATE GOVERNANCE</a>
             </li>
             <li>
-                <a href="#philanthropy" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">PHILANTHROPY</a>
+                <a href="{{ route('philanthropy') }}" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">PHILANTHROPY</a>
             </li>
             <li>
-                <a href="#contact" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">CONTACT US</a>
+                <a href="{{ route('contact') }}" class="text-lg font-serif text-[#E1C6A6] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1">CONTACT US</a>
             </li>
         </ul>
     </nav>

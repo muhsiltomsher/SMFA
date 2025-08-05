@@ -10,7 +10,7 @@ class HomeController extends Controller
     // The index method should be defined like this
     public function index()
     {
-        // Fetch users from the database
+        // Fetch all users from the database
         $users = User::all();
 
         // Pass the users to the view
