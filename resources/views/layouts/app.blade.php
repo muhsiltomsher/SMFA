@@ -22,5 +22,15 @@
 
     <!-- Include JavaScript built by Vite (for other client-side logic) -->
     @vite('resources/js/app.js') <!-- This assumes you're using Vite to build your JS -->
+
+
+    <script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    toggleBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
 </body>
 </html>

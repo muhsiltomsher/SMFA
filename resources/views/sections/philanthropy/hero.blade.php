@@ -7,7 +7,7 @@
 
 
     <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full">
-        <img src="/images/logo.png" alt="Logo" class="mx-auto mb-6 w-28 md:w-[570px]" />
+        <img src="/images/logo.png" alt="Logo" class="mx-auto mb-6 w-[420px] md:w-[570px]" />
 
         <p class="text-white text-sm md:text-base max-w-3xl mx-auto mt-3 px-4 md:px-0">
             Philanthropy is a core pillar of the Private Office’s long-term vision. Guided by a commitment to meaningful impact, we manage and oversee charitable initiatives that reflect the family’s dedication to social responsibility, cultural advancement, and humanitarian support.

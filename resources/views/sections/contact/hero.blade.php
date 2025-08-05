@@ -7,7 +7,7 @@
 
 
     <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full">
-        <img src="/images/logo.png" alt="Logo" class="mx-auto mb-6 w-28 md:w-[570px]" />
+        <img src="/images/logo.png" alt="Logo" class="mx-auto mb-6 w-[420px] md:w-[570px]" />
         
         <p class="text-white text-sm md:text-base max-w-3xl mx-auto mt-3 px-4 md:px-0">
             The Private Office is the principal vehicle for managing, preserving, and enhancing the wealth and legacy of H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi. Established to facilitate long-term sustainability and growth, the office provides a centralised approach to overseeing investments, governance, and multigenerational wealth planning.
