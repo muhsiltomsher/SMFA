@@ -1,14 +1,17 @@
 <!-- resources/views/sections/about/accounting-financial-planning.blade.php -->
-<section class="w-full flex flex-col md:flex-row min-h-[360px] bg-white overflow-hidden mb-12">
-    <div class="md:w-3/5 w-full flex flex-col justify-center px-8 md:px-16 py-10">
-        <h3 class="text-2xl font-serif font-semibold text-gray-800 mb-4 leading-snug">
-            Accounting &<br>Financial Reporting
-        </h3>
-        <p class="text-base md:text-lg text-gray-700 leading-relaxed">
-            The private office provides accurate, consolidated reporting across all asset classes, ensuring financial transparency. This is further reinforced through regular audits conducted by external leading audit firms.
-        </p>
+<section class="w-full flex flex-col-reverse md:flex-row min-h-[480px] bg-white overflow-hidden">
+    <div class="flex-none md:w-[45%] w-full h-auto md:h-auto p-0 md:p-0">
+        <img src="/images/accounting.png" alt="Accounting & Financial Reporting" class="w-full md:h-full h-[300px] object-cover"/>
     </div>
-    <div class="md:w-2/5 w-full h-[200px] md:h-full flex items-center justify-end relative p-0 m-0">
-        <img src="/images/accounting.jpg" alt="Accounting & Financial Reporting" class="w-full h-full object-cover rounded-none"/>
+    <div class="flex-grow flex items-center relative bg-white px-7 md:px-20 py-3 md:py-12">
+        <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none" />
+        <div class="relative z-10 max-w-xl md:w-[490px] w-full mx-auto">
+            <h3 class="text-4xl font-serif font-normal text-[#3c3c3c] mb-8 leading-snug">
+                Accounting &<br>Financial Reporting
+            </h3>
+            <p class="text-xl text-justify text-[#3c3c3c] leading-relaxed font-serif">
+                The private office provides accurate, consolidated reporting across all asset classes, ensuring financial transparency. This is further reinforced through regular audits conducted by external leading audit firms.
+            </p>
+        </div>
     </div>
 </section>

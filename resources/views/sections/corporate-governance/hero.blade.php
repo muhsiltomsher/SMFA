@@ -1,19 +1,11 @@
-<section class="bg-cover bg-center text-white py-24" style="background-image: url('/images/governance-hero-bg.jpg');">
-    <div class="container mx-auto px-6">
-        <nav class="flex justify-center space-x-8 text-lg uppercase tracking-wide mb-10">
-            <a href="/about-us" class="hover:text-gold">About Us</a>
-            <a href="/core-functions" class="hover:text-gold">Core Functions</a>
-            <a href="/corporate-governance" class="hover:text-gold font-semibold">Corporate Governance</a>
-            <a href="/philanthropy" class="hover:text-gold">Philanthropy</a>
-            <a href="/contact" class="hover:text-gold">Contact Us</a>
-        </nav>
-        <div class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold mb-2 tracking-wide">
-                THE PRIVATE OFFICE OF<br>
-                <span class="text-2xl md:text-3xl block mt-2">MOHAMMED BIN FAISAL BIN SULTAN AL QASSIMI</span>
-            </h1>
-        </div>
-        <p class="text-center text-base md:text-lg max-w-3xl mx-auto">
+<section class="relative h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
+    style="background-image: url('/images/hero-bg.png');">
+         <!-- overlay to darken background -->
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+    <div class="relative z-10 w-full flex flex-col items-center justify-center px-4 py-12">
+        <img src="/images/logo.png" alt="Logo" class="mx-auto mb-6 w-28 md:w-[500px]" />
+        <p class="text-white text-sm md:text-base max-w-3xl mx-auto mt-3 px-4 md:px-0">
             Corporate governance within the Private Office encompasses the framework of systems, processes, and structures that guarantee effective oversight, accountability, and strategic decision-making.
         </p>
     </div>
