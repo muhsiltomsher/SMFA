@@ -21,11 +21,11 @@
     <div class="flex-grow flex items-center relative bg-white px-7 md:px-20 py-3 md:py-12">
         <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none" />
         <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto">
-            <h2 class="text-4xl font-serif font-normal text-[#3c3c3c] mb-8 leading-snug">
+            <h2 class="text-4xl font-serif font-normal text-[#473c38] mb-8 leading-snug">
                 Leadership<br>Team
             </h2>
-            <p class="text-xl text-justify text-[#3c3c3c] leading-relaxed mb-8 font-serif">
-                Our team consists of investment professionals, legal, financial experts and trusted advisors who are dedicated to executing the family’s strategic direction. Our seasoned executives ensure alignment with H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi’s long-term goals while maintaining a clear, agile governance structure.
+            <p class="text-xl text-justify text-[#473c38] leading-relaxed mb-8 font-serif">
+                Our team consists of investment professionals, legal, financial experts and trusted advisors who are dedicated to executing the family’s strategic direction. Our seasoned executives ensure alignment with H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi ‘s long-term goals while maintaining a clear, agile governance structure.
             </p>
         </div>
     </div>

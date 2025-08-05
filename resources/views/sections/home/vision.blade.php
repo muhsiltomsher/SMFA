@@ -4,10 +4,10 @@
         <!-- Left Text Column (60% width) -->
         <div class="md:w-3/5 w-full flex flex-col justify-center px-7 md:px-20 py-3 md:py-12">
             <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto">
-                <h2 class="text-4xl font-serif font-normal text-[#3c3c3c] mb-8 leading-snug">
+                <h2 class="text-4xl font-serif font-normal text-[#473c38] mb-8 leading-snug">
                     Our Vision &<br>Philosophy
                 </h2>
-                <p class="text-xl text-justify text-[#3c3c3c] leading-relaxed font-serif mb-8">
+                <p class="text-xl text-justify text-[#473c38] leading-relaxed font-serif mb-8">
                     Our vision is to sustain and grow the family’s wealth across generations, anchored in strong leadership, strategic investment, and enduring values. We believe in responsible stewardship—where tradition meets innovation—to create lasting value, support entrepreneurial ventures, and preserve the legacy of H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi for future generations.
                 </p>
             </div>

@@ -7,12 +7,12 @@
     <div class="flex-grow flex items-center relative bg-white px-7 md:px-20 py-3 md:py-12">
         <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none" />
         <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto">
-            <h2 class="text-4xl font-serif font-normal text-[#3c3c3c] mb-8 leading-snug">Strategy</h2>
-            <p class="text-xl text-justify text-[#3c3c3c] leading-relaxed font-serif mb-8">
+            <h2 class="text-4xl font-serif font-normal text-[#473c38] mb-8 leading-snug">Strategy</h2>
+            <p class="text-xl text-justify text-[#473c38] leading-relaxed font-serif mb-8">
                 A diversified methodology is followed that has been designed to adapt to global markets while safeguarding long-term interests. With a strong focus on capital preservation, risk management, and succession-focused planning, the office combines active oversight with a prudent approach to stimulate continuity and resilience.
             </p>
             <a href="#"
-               class="mt-2 inline-block border-2 border-gray-800 text-[#3c3c3c] px-10 py-3 tracking-widest hover:bg-gray-900 hover:text-white transition text-xl">
+               class="mt-2 inline-block border-2 border-gray-800 text-[#473c38] px-10 py-3 tracking-widest hover:bg-[#473c38] hover:text-white transition text-xl">
                 LEARN MORE
             </a>
         </div>

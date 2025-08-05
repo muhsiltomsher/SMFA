@@ -8,11 +8,11 @@
     <div class="flex-grow flex items-center relative bg-white px-7 md:px-20 py-3 md:py-12">
         <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none" />
         <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto">
-            <h3 class="text-4xl font-serif font-normal text-[#3c3c3c] mb-8 leading-snug">
+            <h3 class="text-4xl font-serif font-normal text-[#473c38] mb-8 leading-snug">
                 Legal &amp; Risk<br>Management
             </h3>
-            <p class="text-xl text-justify text-[#3c3c3c] leading-relaxed font-serif">
-                We oversee legal structures and compliance across all holdings, coordinating closely with legal advisors and tax consultants. Our proactive risk management approach safeguards the family’s interests while adhering to all regulatory bodies.
+            <p class="text-xl text-justify text-[#473c38] leading-relaxed font-serif">
+                We oversee legal structures and compliance across all holdings, coordinating closely with legal advisors and tax consultants. Our proactive risk management approach safeguards the family’s’ interests while adhering to all regulatory bodies.
             </p>
         </div>
     </div>

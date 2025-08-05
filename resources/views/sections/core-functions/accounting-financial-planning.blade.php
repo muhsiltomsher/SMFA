@@ -6,10 +6,10 @@
     <div class="flex-grow flex items-center relative bg-white px-7 md:px-20 py-3 md:py-12">
         <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none" />
         <div class="relative z-10 max-w-xl md:w-[490px] w-full mx-auto">
-            <h3 class="text-4xl font-serif font-normal text-[#3c3c3c] mb-8 leading-snug">
+            <h3 class="text-4xl font-serif font-normal text-[#473c38] mb-8 leading-snug">
                 Accounting &<br>Financial Reporting
             </h3>
-            <p class="text-xl text-justify text-[#3c3c3c] leading-relaxed font-serif">
+            <p class="text-xl text-justify text-[#473c38] leading-relaxed font-serif">
                 The private office provides accurate, consolidated reporting across all asset classes, ensuring financial transparency. This is further reinforced through regular audits conducted by external leading audit firms.
             </p>
         </div>
