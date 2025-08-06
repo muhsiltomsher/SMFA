@@ -51,15 +51,15 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="lg:hidden hidden px-2 pb-3 pt-2 space-y-1">
-      <a href="{{ route('about') }}" class="block text-lg font-serif text-[#f9f7f0] tracking-wide border-b-2 border-[#E1C6A6] pb-1 p-5">ABOUT US</a>
+      <a href="{{ route('about') }}" class="block text-lg font-serif tracking-wide pb-1 p-5 {{ request()->routeIs('about') ? 'border-b-2 border-[#E1C6A6] text-[#f9f7f0]' : 'text-[#f9f7f0] hover:border-b-2 hover:border-[#E1C6A6]' }}">ABOUT US</a>
 
-      <a href="{{ route('core-functions') }}" class="block text-lg font-serif text-[#f9f7f0] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1 p-5">CORE FUNCTIONS</a>
+      <a href="{{ route('core-functions') }}" class="block text-lg font-serif tracking-wide pb-1 p-5 {{ request()->routeIs('core-functions') ? 'border-b-2 border-[#E1C6A6] text-[#f9f7f0]' : 'text-[#f9f7f0] hover:border-b-2 hover:border-[#E1C6A6]' }}">CORE FUNCTIONS</a>
 
-      <a href="{{ route('corporate-governance') }}" class="block text-lg font-serif text-[#f9f7f0] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1 p-5">CORPORATE GOVERNANCE</a>
+      <a href="{{ route('corporate-governance') }}" class="block text-lg font-serif tracking-wide pb-1 p-5 {{ request()->routeIs('corporate-governance') ? 'border-b-2 border-[#E1C6A6] text-[#f9f7f0]' : 'text-[#f9f7f0] hover:border-b-2 hover:border-[#E1C6A6]' }}">CORPORATE GOVERNANCE</a>
 
-      <a href="{{ route('philanthropy') }}" class="block text-lg font-serif text-[#f9f7f0] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1 p-5">PHILANTHROPY</a>
+      <a href="{{ route('philanthropy') }}" class="block text-lg font-serif tracking-wide pb-1 p-5 {{ request()->routeIs('philanthropy') ? 'border-b-2 border-[#E1C6A6] text-[#f9f7f0]' : 'text-[#f9f7f0] hover:border-b-2 hover:border-[#E1C6A6]' }}">PHILANTHROPY</a>
 
-      <a href="{{ route('contact') }}" class="block text-lg font-serif text-[#f9f7f0] tracking-wide hover:border-b-2 hover:border-[#E1C6A6] pb-1 p-5">CONTACT US</a>
+      <a href="{{ route('contact') }}" class="block text-lg font-serif tracking-wide pb-1 p-5 {{ request()->routeIs('contact') ? 'border-b-2 border-[#E1C6A6] text-[#f9f7f0]' : 'text-[#f9f7f0] hover:border-b-2 hover:border-[#E1C6A6]' }}">CONTACT US</a>
     </div>
   </nav>
 </header>
