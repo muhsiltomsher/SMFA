@@ -6,7 +6,7 @@
     </div>
     <!-- Right text -->
     <div class="flex-grow flex items-center relative bg-white px-7 md:px-20 py-3 md:py-12">
-        <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none" />
+        <img src="/images/bh_pattern.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none" />
         <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto">
             <h3 class="text-4xl font-serif font-normal text-[#473c38] mb-8 leading-snug">
                 Legal &amp; Risk<br>Management
