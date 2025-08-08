@@ -35,11 +35,11 @@ window.gsap = gsap;
 // ---------------------------------------------
 
 window.addEventListener('DOMContentLoaded', () => {
-    // ✅ Get wrapper/content elements FIRST
+    // Get wrapper/content elements first
     const wrapper = document.querySelector('#smooth-wrapper');
     const content = document.querySelector('#smooth-content');
 
-    // ✅ Only create smoother if structure exists
+    // Only create smoother if structure exists
     if (wrapper && content) {
         ScrollSmoother.create({
             wrapper: '#smooth-wrapper',
@@ -50,7 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ✅ Animate width of image on scroll
+    // Animate width of image on scroll
     const section = document.querySelector('#since-year1');
     const image = section?.querySelector('.since-width-image1');
     const heading = section?.querySelector('#since-heading1');
@@ -87,7 +87,22 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ✅ Always refresh ScrollTrigger after dynamic layout changes
+    // Animate all elements with class 'scroll-view' for fade + slide on scroll
+    gsap.utils.toArray('.scroll-view').forEach(elem => {
+        gsap.to(elem, {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            ease: 'power3.out',
+            scrollTrigger: {
+                trigger: elem,
+                start: 'top 85%',
+                toggleActions: 'play none none none', // Animate once
+            },
+        });
+    });
+
+    // Always refresh ScrollTrigger after dynamic layout changes
     ScrollTrigger.refresh();
 });
 
@@ -103,9 +118,13 @@ window.addEventListener('load', () => {
         if (current >= 100) {
             clearInterval(interval);
 
-            // Fade out the loader
-            loader.classList.add('opacity-0', 'pointer-events-none');
-            setTimeout(() => loader.remove(), 800);
+            // Fade out the loader smoothly
+            if (loader) {
+                loader.classList.add('opacity-0', 'pointer-events-none');
+                setTimeout(() => loader.remove(), 800);
+            }
         }
     }, 20); // 100 * 20ms = 2000ms = 2s (matches fill bar)
 });
+
+export default {};

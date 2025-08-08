@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@yield('title')</title>
 
-    <!-- Link to the Vite-compiled CSS file (TailwindCSS) -->
-    @vite('resources/css/app.css') <!-- This assumes you're using Vite to build your CSS -->
+    <!-- Tailwind CSS compiled via Vite -->
+    @vite('resources/css/app.css')
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- Optional: Add smooth scrolling behavior (CSS way) -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
 
-    <!-- Include Header -->
+    <!-- Include site header -->
     @include('layouts.header')
 
+    <!-- Main content -->
     <main class="mx-auto">
-        @yield('content') <!-- Dynamic content injected from each page -->
+        @yield('content')
     </main>
 
-    <!-- Include Footer -->
+    <!-- Include site footer -->
     @include('layouts.footer')
 
-    <!-- Include JavaScript built by Vite (for other client-side logic) -->
-    @vite('resources/js/app.js') <!-- This assumes you're using Vite to build your JS -->
+    <!-- Include compiled JS via Vite -->
+    @vite('resources/js/app.js')
 
-
+    <!-- Optional: Mobile menu toggle script -->
     <script>
-    const toggleBtn = document.getElementById("menu-toggle");
-    const mobileMenu = document.getElementById("mobile-menu");
+        // Make sure both elements exist before attaching listener
+        const toggleBtn = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
 
-    toggleBtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
-    });
-  </script>
+        if (toggleBtn && mobileMenu) {
+            toggleBtn.addEventListener("click", () => {
+                mobileMenu.classList.toggle("hidden");
+            });
+        }
+    </script>
+
 </body>
 </html>

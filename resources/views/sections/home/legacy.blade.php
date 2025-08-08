@@ -1,10 +1,9 @@
-
 <!-- resources/views/sections/home/legacy.blade.php -->
-<section class="w-full flex flex-col md:flex-row min-h-[400px] md:min-h-[480px] bg-white overflow-hidden">
+<section class="w-full flex flex-col md:flex-row min-h-[400px] md:min-h-[480px] bg-white overflow-hidden py-6 md:py-20">
     <!-- Left text (60% width) -->
-    <div class="md:w-3/5 w-full flex flex-col justify-center px-7 md:px-20 py-3 md:py-12">
+    <div class="md:w-3/5 w-full flex flex-col justify-center px-7 md:px-20 py-3 md:py-12 scroll-view">
         <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto">
-            <h2 class="text-4xl font-serif font-normal text-[#473c38] mb-8 leading-snug">
+            <h2 class="text-5xl font-serif font-normal text-[#473c38] mb-8 leading-tight">
                 Legacy &<br>Values
             </h2>
             <p class="text-xl text-justify text-[#473c38] leading-relaxed font-serif mb-8">
@@ -13,7 +12,7 @@
         </div>
     </div>
     <!-- Right image (40% width) -->
-    <div class="md:w-2/5 w-full h-[280px] md:h-full flex items-center justify-end relative p-0 m-0">
+    <div class="md:w-2/5 w-full h-[280px] md:h-full flex items-center justify-end relative p-0 m-0 scroll-view">
         <img src="/images/legacy-image.png" alt="Legacy Values" class="w-full h-full object-cover rounded-none" />
     </div>
 </section>
