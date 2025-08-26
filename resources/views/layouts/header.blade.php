@@ -30,7 +30,7 @@
                         <li>
                             <a
                                 href="{{ route($route) }}"
-                                class="noto-serif-display-700 transition border-b-2 pb-1 {{ request()->routeIs($route) ? 'border-[#E1C6A6] text-[#f9f7f0]' : 'border-transparent text-[#f9f7f0] hover:border-[#E1C6A6]' }}"
+                                class="noto-serif-display-700 transition border-b-2 pb-6 {{ request()->routeIs($route) ? 'border-[#fff] text-[#f9f7f0]' : 'border-transparent text-[#f9f7f0] hover:border-[#E1C6A6]' }}"
                             >
                                 {{ $label }}
                             </a>

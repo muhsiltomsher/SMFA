@@ -4,13 +4,13 @@
 
 <section
     id="jks-hero-section"
-    class="relative h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
+    class="relative h-auto xl:h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
     style="background-image: url('/images/hero-bg.png'); opacity: 0;"
 >
     <!-- Optional dark overlay -->
     <!-- <div class="absolute inset-0 bg-black bg-opacity-60"></div> -->
 
-    <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full">
+    <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full mt-24 xl:mt-0">
         <img
             id="jks-logo"
             src="{{ $image }}"
@@ -22,7 +22,7 @@
         />
         <p
             id="jks-hero-text"
-            class="manrope-400 text-white text-base md:text-xl font-thin max-w-6xl mx-auto px-8 leading-relaxed opacity-0"
+            class="manrope-400 text-white text-base md:text-xl font-thin max-w-7xl mx-auto px-8 !leading-[34px] opacity-0"
         >
             {{ $slot }}
         </p>

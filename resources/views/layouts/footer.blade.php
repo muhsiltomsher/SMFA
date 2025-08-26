@@ -1,4 +1,4 @@
-<section class="w-full bg-white text-center py-12 px-7 md:px-15 pt-8 sm:pt-20 scroll-view">
+<section class="w-full bg-white text-center py-12 px-7 md:px-15 pt-8 sm:pt-20 scroll-view hidden">
     <h2 class="text-4xl font-serif font-normal text-[#473c38] mb-8 mt-5 mb:mt-10">
         Contact Us
     </h2>
