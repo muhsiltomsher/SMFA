@@ -6,7 +6,7 @@
     <!-- Right content: 67% width with same padding -->
     <div class="flex-grow flex items-center relative bg-white  scroll-view">
         <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-100 pointer-events-none" />
-        <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto p-10 xl:y-0">
+        <div class="relative z-10 max-w-xl md:w-[440px] w-full mx-auto p-10 xl:y-0">
             <h2 class="text-2xl xl:text-[30px] font-serif font-normal text-[#473c38] mb-8 leading-tight scroll-view">
                 Leadership<br>Team
             </h2>

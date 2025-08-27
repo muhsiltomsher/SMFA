@@ -3,7 +3,7 @@
     <div class="flex flex-col md:flex-row w-full h-full">
         <!-- Left Text Column (60% width) -->
         <div class="order-2 xl:order-1 w-full flex flex-col justify-center  scroll-view">
-            <div class="relative z-10 max-w-xl md:w-[480px] w-full mx-auto p-10 xl:y-0">
+            <div class="relative z-10 max-w-xl md:w-[470px] w-full mx-auto p-10 sm:p-10 md:p-0 lg:p-10 xl:p-0 2xl:p-0">
                 <h2 class="text-2xl xl:text-[30px] font-serif font-normal text-[#473c38] mb-8 leading-tight">
                     Our Vision & <br> Philosophy
 
