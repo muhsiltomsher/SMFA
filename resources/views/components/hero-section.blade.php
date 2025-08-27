@@ -10,7 +10,7 @@
     <!-- Optional dark overlay -->
     <!-- <div class="absolute inset-0 bg-black bg-opacity-60"></div> -->
 
-    <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full mt-24 xl:mt-0">
+    <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full mt-24 xl:mt-0 pb-10 md:pb-10 xl:pb-0">
         <img
             id="jks-logo"
             src="{{ $image }}"
