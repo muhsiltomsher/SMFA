@@ -2,7 +2,7 @@
     <div class="flex-none w-[100%] md:w-[50%] h-auto md:h-auto p-0 md:p-0 scroll-view">
         <img src="/images/corporate-governance-img.webp" alt="Corporate Governance Office" class="w-full md:h-full h-[300px] object-cover">
     </div>
-    <div class=" w-full flex flex-col justify-center px-7 md:px-20 py-10 md:py-12 scroll-view">
+    <div class=" w-full flex flex-col justify-center px-7 md:px-10 py-10 md:py-12 scroll-view">
         <div class="relative z-10 max-w-xl w-full mx-auto">
             <h2 class="text-2xl xl:text-[30px] font-serif font-normal text-[#473c38] mb-8 leading-tight scroll-view">Corporate Governance</h2>
             <p class="text-md xl:text-[16px] text-justify text-[#473c38] font-serif leading-relaxed mb-6 scroll-view">

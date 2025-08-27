@@ -1,8 +1,8 @@
 <!-- resources/views/sections/core-functions/lifestyle-concierge.blade.php -->
-<section class="w-full flex flex-col-reverse md:flex-row min-h-[360px] bg-white overflow-hidden">
+<section class="w-full flex flex-col-reverse md:flex-row min-h-[360px] md:min-h-[100%] bg-white overflow-hidden">
     <!-- Left text -->
     <div class=" w-full flex flex-col justify-center  scroll-view">
-        <div class="relative z-10 max-w-xl md:w-[440px] w-full mx-auto p-10 sm:p-10 md:p-0 lg:p-10 xl:p-0 2xl:p-0">
+        <div class="relative z-10 max-w-xl md:w-[80%] xl:w-[470px] w-full mx-auto p-10 sm:p-10 md:p-0 lg:p-10 xl:p-0 2xl:p-0">
             <h3 class="text-2xl xl:text-[30px] font-serif font-normal text-[#473c38] mb-8 leading-tight scroll-view">
                 Lifestyle &amp;<br>Concierge Services
             </h3>

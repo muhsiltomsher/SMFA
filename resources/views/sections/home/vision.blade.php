@@ -1,9 +1,9 @@
 <!-- resources/views/sections/home/vision.blade.php -->
-<section class="bg-white w-full flex items-center min-h-[400px] md:min-h-[480px]">
-    <div class="flex flex-col md:flex-row w-full h-full">
+<section class="bg-white w-full flex-col md:flex-row flex items-center min-h-[400px] md:min-h-[100%] xl:min-h-[480px]">
+    <div class="flex flex-col-reverse md:flex-row w-full h-full">
         <!-- Left Text Column (60% width) -->
-        <div class="order-2 xl:order-1 w-full flex flex-col justify-center  scroll-view">
-            <div class="relative z-10 max-w-xl md:w-[470px] w-full mx-auto p-10 sm:p-10 md:p-0 lg:p-10 xl:p-0 2xl:p-0">
+        <div class=" w-full flex flex-col justify-center  scroll-view">
+            <div class="relative z-10 max-w-xl md:w-[80%] xl:w-[470px] w-full mx-auto p-10 sm:p-10 md:p-0 lg:p-10 xl:p-0 2xl:p-0">
                 <h2 class="text-2xl xl:text-[30px] font-serif font-normal text-[#473c38] mb-8 leading-tight">
                     Our Vision & <br> Philosophy
 
@@ -14,7 +14,7 @@
             </div>
         </div>
         <!-- Right Image Column (40% width) -->
-        <div class="w-full order-1 xl:order-2 h-[280px] md:h-full flex justify-end items-center relative p-0 m-0 scroll-view">
+        <div class="w-full  xl:h-full flex justify-end items-center relative p-0 m-0 scroll-view">
             <img src="/images/our-vision-img.webp" alt="Falcon" class="relative w-full h-full object-cover rounded-none" />
         </div>
     </div>

@@ -39,3 +39,7 @@
   transform: translateY(40px);
   will-change: opacity, transform;
 }
+
+.font-serif{
+  font-family: "PT Serif", serif!important;
+}

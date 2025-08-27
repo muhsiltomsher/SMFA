@@ -1,8 +1,8 @@
 <!-- resources/views/sections/about/investment-management.blade.php -->
-<section class="w-full flex flex-col-reverse md:flex-row min-h-[400px] md:min-h-[480px]">
+<section class="w-full flex flex-col-reverse md:flex-row min-h-[400px] md:min-h-[100%] xl:min-h-[480px]">
     <!-- Left text (60%) -->
     <div class="w-full flex flex-col justify-center  scroll-view">
-        <div class="relative z-10 max-w-xl md:w-[440px] w-full mx-auto p-10 sm:p-10 md:p-0 lg:p-10 xl:p-0 2xl:p-0">
+        <div class="relative z-10 max-w-xl md:w-[80%] xl:w-[440px] w-full mx-auto p-10 sm:p-10 md:p-0 lg:p-10 xl:p-0 2xl:p-0">
             <h3 class="text-2xl xl:text-[30px] font-serif font-normal text-[#473c38] mb-8 leading-tight scroll-view">
                 Investment<br>Management
             </h3>
