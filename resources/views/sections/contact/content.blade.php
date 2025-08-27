@@ -7,7 +7,7 @@
     <div class="flex-grow flex items-center relative bg-white px-7 md:px-10 py-10 md:py-20 scroll-view">
         <div class="relative z-10 max-w-xl w-full mx-auto">
             <h2 class="text-2xl xl:text-[30px] font-serif font-normal text-[#473c38] mb-8 leading-tight scroll-view">Contact Us</h2>
-            <p class="text-md xl:text-[16px] text-justify text-[#473c38] font-serif leading-relaxed mb-6 scroll-view">
+            <p class="text-md xl:text-[16px] text-justify text-[#473c38] font-serif leading-relaxed mb-14 scroll-view">
               For further information or to connect with us,<br>please contact our headquarters at:
             </p>
             <div class="mb-4 text-[#544541] scroll-view">
@@ -21,7 +21,7 @@
             <div class="my-8 xl:my-14 text-[#544541] scroll-view">
                 <p class="font-bold mb-2 text-md xl:text-[16px]">PHONE</p>
                 <p class="mb-3 font-serif underline">
-                    +971 4 261 1126
+                    <a href="tel:+97142611126">+971 4 261 1126</a>
                 </p>
             </div>
 
