@@ -12,11 +12,11 @@
             </h2>
             <p class="text-md xl:text-[16px] text-justify text-[#473c38] leading-relaxed font-serif mb-0 xl:mb-8 scroll-view">
 A diversified methodology is followed that has been designed to adapt to global markets while safeguarding long-term interests. With a strong focus on capital preservation, risk management, and succession-focused planning, the office combines active oversight with a prudent approach to stimulate continuity and resilience.            </p>
-            <a href="#"
+            <!-- <a href="#"
                class="mt-3 inline-block border-2 border-gray-800 text-[#473c38] px-10 py-3 tracking-widest hover:bg-[#473c38] hover:text-white transition text-xl scroll-view"
             >
                 LEARN MORE
-            </a>
+            </a> -->
         </div>
     </div>
 </section>

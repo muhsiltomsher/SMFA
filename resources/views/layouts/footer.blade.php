@@ -27,3 +27,7 @@
         Copyright © 2025, The Private Office of SMFA. All Rights Reserved.
     </div>
 </section>
+
+<section class="w-full bg-white text-center py-6 px-7 md:px-15">
+<p class="font-serif font-normal text-[11px] xl:text-[16px]">Copyright © 2025. The Private Office of H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi. All Rights Reserved.</p>
+</section>
