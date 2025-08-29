@@ -2,6 +2,36 @@
     'image' => '/images/logo.png',
 ])
 
+@php
+    // Capture the slot content as raw HTML string
+    ob_start();
+@endphp
+
+{{ $slot }}
+
+@php
+    $content = ob_get_clean();
+
+    // Strip all tags EXCEPT <br> to keep line breaks
+    $contentWithBr = strip_tags($content, '<br>');
+
+    // Remove the words 'long-', 'invest', 'investments' case insensitive
+    // Note: This will only remove these words from text, leaving tag structure intact
+    $filteredContent = preg_replace('/\b(?:long-|investments|invest)\b/i', '', $contentWithBr);
+
+    // Optional: Normalize multiple whitespaces (excluding <br>) - keep <br> for formatting
+    // To do this correctly, replace multiple spaces but keep <br> intact
+    // First, replace all <br> with a placeholder
+    $placeholder = '___BR_PLACEHOLDER___';
+    $filteredContent = str_replace(['<br>', '<br/>', '<br />'], $placeholder, $filteredContent);
+
+    // Replace multiple spaces/newlines/tabs with a single space
+    $filteredContent = preg_replace('/\s+/', ' ', $filteredContent);
+
+    // Restore <br> tags
+    $filteredContent = str_replace($placeholder, '<br>', $filteredContent);
+@endphp
+
 <section
     id="jks-hero-section"
     class="relative h-auto xl:h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
@@ -22,9 +52,10 @@
         />
         <p
             id="jks-hero-text"
-            class="manrope-400 text-white text-base md:text-xl font-thin max-w-7xl mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] opacity-0 text-justify"
+            class="manrope-400 text-white text-base md:text-xl font-thin max-w-[1250px] mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] opacity-0 text-justify"
+            style="word-break: break-word; hyphens: none; white-space: normal;"
         >
-            {{ $slot }}
+            {!! $filteredContent !!}
         </p>
     </div>
 </section>
@@ -38,20 +69,15 @@
         if (section && logo && text) {
             const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
 
-            // Fade in entire section (no position shift to avoid whitespace)
             tl.to(section, {
                 duration: 1,
                 opacity: 1,
             })
-
-            // Animate logo fade + subtle slide up
             .to(logo, {
                 opacity: 1,
                 y: -20,
                 duration: 1,
             }, "-=0.7")
-
-            // Animate text fade + slight delay after logo
             .to(text, {
                 opacity: 1,
                 y: -10,
