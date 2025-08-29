@@ -24,10 +24,25 @@
         </a>
     </div>
     <div class="mt-8 text-xs text-[#473c38] font-serif">
-        Copyright © 2025, The Private Office of SMFA. All Rights Reserved.
+        Copyright © <span id="dynamic-year"></span>, The Private Office of SMFA. All Rights Reserved.
     </div>
 </section>
 
 <section class="w-full bg-white text-center py-6 px-7 md:px-15">
-<p class="font-serif font-normal text-[11px] xl:text-[16px]">Copyright © 2025. The Private Office of H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi. All Rights Reserved.</p>
+    <p class="font-serif font-normal text-[12px] xl:text-[14px]">
+        Copyright © <span id="dynamic-year-footer"></span>. The Private Office of H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi. All Rights Reserved.
+    </p>
+    <p class="font-serif font-normal text-[11px] xl:text-[16px] hidden" id="seo-designed-by">
+        Designed by <a href="https://tomsher.com" class="underline hover:text-[#E1C6A6]">Tomsher</a>.
+    </p>
 </section>
+
+<script>
+    // Set dynamic year
+    const currentYear = new Date().getFullYear();
+    document.getElementById('dynamic-year').textContent = currentYear;
+    document.getElementById('dynamic-year-footer').textContent = currentYear;
+    
+    // Ensure SEO still picks "Designed by Tomsher" even when hidden
+    document.getElementById('seo-designed-by').style.display = 'none';
+</script>
