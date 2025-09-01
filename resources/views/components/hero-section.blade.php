@@ -1,5 +1,6 @@
 @props([
     'image' => '/images/logo.png',
+    'width' => 'max-w-[1250px]' // default width for the <p> text
 ])
 
 @php
@@ -16,19 +17,12 @@
     $contentWithBr = strip_tags($content, '<br>');
 
     // Remove the words 'long-', 'invest', 'investments' case insensitive
-    // Note: This will only remove these words from text, leaving tag structure intact
     $filteredContent = preg_replace('/\b(?:long-|investments|invest)\b/i', '', $contentWithBr);
 
     // Optional: Normalize multiple whitespaces (excluding <br>) - keep <br> for formatting
-    // To do this correctly, replace multiple spaces but keep <br> intact
-    // First, replace all <br> with a placeholder
     $placeholder = '___BR_PLACEHOLDER___';
     $filteredContent = str_replace(['<br>', '<br/>', '<br />'], $placeholder, $filteredContent);
-
-    // Replace multiple spaces/newlines/tabs with a single space
     $filteredContent = preg_replace('/\s+/', ' ', $filteredContent);
-
-    // Restore <br> tags
     $filteredContent = str_replace($placeholder, '<br>', $filteredContent);
 @endphp
 
@@ -37,9 +31,6 @@
     class="relative h-auto xl:h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
     style="background-image: url('/images/hero-bg.png'); opacity: 0;"
 >
-    <!-- Optional dark overlay -->
-    <!-- <div class="absolute inset-0 bg-black bg-opacity-60"></div> -->
-
     <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full mt-24 xl:mt-0 pb-10 md:pb-10 xl:pb-0">
         <img
             id="jks-logo"
@@ -52,7 +43,7 @@
         />
         <p
             id="jks-hero-text"
-            class="manrope-400 text-white text-base md:text-xl font-thin max-w-[1250px] mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify"
+            class="manrope-400 text-white text-base md:text-xl font-thin {{ $width }} mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify"
             style="word-break: break-word; hyphens: none; white-space: normal;"
         >
             {!! $filteredContent !!}
@@ -69,20 +60,9 @@
         if (section && logo && text) {
             const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
 
-            tl.to(section, {
-                duration: 1,
-                opacity: 1,
-            })
-            .to(logo, {
-                opacity: 1,
-                y: -20,
-                duration: 1,
-            }, "-=0.7")
-            .to(text, {
-                opacity: 1,
-                y: -10,
-                duration: 1,
-            }, "-=0.5");
+            tl.to(section, { duration: 1, opacity: 1 })
+              .to(logo, { opacity: 1, y: -20, duration: 1 }, "-=0.7")
+              .to(text, { opacity: 1, y: -10, duration: 1 }, "-=0.5");
         }
     });
 </script>
