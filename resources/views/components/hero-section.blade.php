@@ -41,13 +41,14 @@
             decoding="async"
             fetchpriority="low"
         />
-        <p
-            id="jks-hero-text"
-            class="manrope-400 text-white text-base md:text-xl font-thin {{ $width }} mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify"
-            style="word-break: break-word; hyphens: none; white-space: normal;"
-        >
-            {!! $filteredContent !!}
-        </p>
+<p
+    id="jks-hero-text"
+    class="manrope-400 text-white text-base md:text-xl font-thin {{ $width }} mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify"
+    style="word-break: break-word; hyphens: none; white-space: normal; text-align: center;"
+>
+    {!! $filteredContent !!}
+</p>
+
     </div>
 </section>
 
