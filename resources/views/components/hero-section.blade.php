@@ -37,13 +37,13 @@
             src="{{ $image }}"
             alt="Logo"
             loading="lazy"
-            class="mx-auto my-10 w-[560px] md:w-[760px] opacity-0"
+            class="mx-auto mt-10 mb-4 w-[560px] md:w-[760px] opacity-0"
             decoding="async"
             fetchpriority="low"
         />
 <p
     id="jks-hero-text"
-    class="manrope-400 text-white text-base md:text-xl font-thin max-w-[1000px] mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify"
+    class="manrope-400 text-white text-base md:text-xl font-thin max-w-[1000px] max-h-full  xl:max-h-40 mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify"
     style="word-break: break-word; hyphens: none; white-space: normal; text-align: center;"
 >
     {!! $filteredContent !!}
