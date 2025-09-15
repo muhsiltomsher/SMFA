@@ -1,9 +1,12 @@
 @props([
-    'image' => '/images/logo.png',
-    'width' => 'max-w-[1250px]' // default width for the <p> text
+    'image' => '/images/logo.svg', // default logo image path
+    'widthClass' => 'max-w-[1250px]', // renamed from 'width' for clarity
 ])
 
 @php
+    // Capture additional classes passed to the component via $attributes
+    $passedClass = $attributes->get('class') ?? '';
+
     // Capture the slot content as raw HTML string
     ob_start();
 @endphp
@@ -19,7 +22,7 @@
     // Remove the words 'long-', 'invest', 'investments' case insensitive
     $filteredContent = preg_replace('/\b(?:long-|investments|invest)\b/i', '', $contentWithBr);
 
-    // Optional: Normalize multiple whitespaces (excluding <br>) - keep <br> for formatting
+    // Normalize multiple whitespaces but keep <br> tags
     $placeholder = '___BR_PLACEHOLDER___';
     $filteredContent = str_replace(['<br>', '<br/>', '<br />'], $placeholder, $filteredContent);
     $filteredContent = preg_replace('/\s+/', ' ', $filteredContent);
@@ -28,6 +31,7 @@
 
 <section
     id="jks-hero-section"
+    {{ $attributes->except('class') }}
     class="relative h-auto xl:h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
     style="background-image: url('/images/hero-bg.png'); opacity: 0;"
 >
@@ -41,19 +45,23 @@
             decoding="async"
             fetchpriority="low"
         />
-<p
-    id="jks-hero-text"
-    class="manrope-400 text-white text-base md:text-xl font-thin max-w-[1000px] max-h-full  xl:max-h-40 mx-auto px-8 md:px-15 lg:px-28 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify"
-    style="word-break: break-word; hyphens: none; white-space: normal; text-align: center;"
->
-    {!! $filteredContent !!}
-</p>
-
+        <p
+            id="jks-hero-text"
+            class="manrope-400 max-h-full lg:max-h-52 text-white text-base md:text-xl font-thin mx-auto px-0 md:px-2 lg:px-4 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify {{ $widthClass }} {{ $passedClass }}"
+            style="word-break: break-word; hyphens: none; white-space: normal; text-align: center;"
+        >
+            {!! $filteredContent !!}
+        </p>
     </div>
 </section>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+        if (typeof gsap === 'undefined') {
+            console.error('GSAP library is not loaded.');
+            return;
+        }
+
         const section = document.getElementById('jks-hero-section');
         const logo = document.getElementById('jks-logo');
         const text = document.getElementById('jks-hero-text');
@@ -64,6 +72,8 @@
             tl.to(section, { duration: 1, opacity: 1 })
               .to(logo, { opacity: 1, y: -20, duration: 1 }, "-=0.7")
               .to(text, { opacity: 1, y: -10, duration: 1 }, "-=0.5");
+        } else {
+            console.error('One or more required elements not found:', {section, logo, text});
         }
     });
 </script>
