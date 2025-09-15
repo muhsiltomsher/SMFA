@@ -37,6 +37,16 @@
     </p>
 </section>
 
+<button
+    id="scrollToTopBtn"
+    class="fixed bottom-6 right-6 p-3 rounded-full bg-[#473c38] text-white shadow-lg opacity-0 pointer-events-none transition-opacity duration-300"
+    aria-label="Scroll to top"
+    title="Scroll to top"
+>
+    ↑
+</button>
+
+
 <script>
     // Set dynamic year
     const currentYear = new Date().getFullYear();
@@ -45,4 +55,25 @@
     
     // Ensure SEO still picks "Designed by Tomsher" even when hidden
     document.getElementById('seo-designed-by').style.display = 'none';
+
+    // Scroll To Top Button handling
+const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        scrollToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+        scrollToTopBtn.classList.add('opacity-100');
+    } else {
+        scrollToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+        scrollToTopBtn.classList.remove('opacity-100');
+    }
+});
+
+scrollToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+});
+
 </script>
