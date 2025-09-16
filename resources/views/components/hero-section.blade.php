@@ -35,16 +35,17 @@
     class="relative h-auto xl:h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
     style="background-image: url('/images/hero-bg.png'); opacity: 0;"
 >
-    <div class="relative z-10 flex flex-col items-center justify-center w-full px-4 h-full mt-24 xl:mt-0 pb-10 md:pb-10 xl:pb-0">
+    <div class="relative z-10 gap-0 space-x-0 space-y-0 flex flex-col items-center justify-center w-full px-4 h-full mt-24 xl:mt-0 pb-10 md:pb-10 xl:pb-0">
         <img
             id="jks-logo"
             src="{{ $image }}"
             alt="Logo"
             loading="lazy"
-            class="mx-auto mt-10 mb-4 w-[560px] md:w-[760px] opacity-0"
+            class="mx-auto  w-[560px] md:w-[760px] opacity-0"
             decoding="async"
             fetchpriority="low"
         />
+        <div class="w-full h-16"></div>
         <p
             id="jks-hero-text"
             class="manrope-400 max-h-full lg:max-h-52 text-white text-base md:text-xl font-thin mx-auto px-0 md:px-2 lg:px-4 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify {{ $widthClass }} {{ $passedClass }}"
@@ -70,8 +71,8 @@
             const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
 
             tl.to(section, { duration: 1, opacity: 1 })
-              .to(logo, { opacity: 1, y: -20, duration: 1 }, "-=0.7")
-              .to(text, { opacity: 1, y: -10, duration: 1 }, "-=0.5");
+              .to(logo, { opacity: 1, y: -0, duration: 1 }, "-=0.7")
+              .to(text, { opacity: 1, y: -0, duration: 1 }, "-=0.5");
         } else {
             console.error('One or more required elements not found:', {section, logo, text});
         }
