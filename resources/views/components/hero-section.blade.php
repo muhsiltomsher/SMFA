@@ -48,7 +48,8 @@
         <div class="w-full h-16"></div>
         <p
             id="jks-hero-text"
-            class="manrope-400 max-h-full lg:max-h-52 text-white text-base md:text-xl font-thin mx-auto px-0 md:px-2 lg:px-4 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify {{ $widthClass }} {{ $passedClass }}"
+            class="manrope-400 text-white text-base md:text-xl font-thin mx-auto px-0 md:px-2 lg:px-4 xl:px-32 !leading-[34px] tracking-wide opacity-0 text-justify {{ $widthClass }} {{ $passedClass }}"
+
             style="word-break: break-word; hyphens: none; white-space: normal; text-align: center;"
         >
             {!! $filteredContent !!}
