@@ -1,6 +1,7 @@
 @props([
     'image' => '/images/logo.svg', // default logo image path
     'widthClass' => 'max-w-[1250px]', // renamed from 'width' for clarity
+    'backgroundImage' => '/images/hero-bg.png' // default background image
 ])
 
 @php
@@ -33,7 +34,7 @@
     id="jks-hero-section"
     {{ $attributes->except('class') }}
     class="relative h-auto xl:h-screen flex flex-col items-center justify-center text-center bg-cover bg-center"
-    style="background-image: url('/images/hero-bg.png'); opacity: 0;"
+    style="background-image: url('{{ $backgroundImage }}'); opacity: 0;" 
 >
     <div class="relative z-10 gap-0 space-x-0 space-y-0 flex flex-col items-center justify-center w-full px-4 h-full mt-24 xl:mt-0 pb-10 md:pb-10 xl:pb-0">
         <img
