@@ -1,7 +1,7 @@
 @props([
     'image' => '/images/logo.svg', // default logo image path
     'widthClass' => 'max-w-[1250px]', // renamed from 'width' for clarity
-    'backgroundImage' => '/images/hero-bg2.png' // default background image
+    'backgroundImage' => '/images/hero-bg2.jpeg' // default background image
 ])
 
 @php
