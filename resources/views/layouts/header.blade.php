@@ -1,5 +1,5 @@
 <header class="absolute lg:top-8 left-0 w-full z-50">
-    <nav class="w-full bg-black bg-opacity-70 lg:bg-transparent font-serif" x-data="{ open: false }">
+    <nav class="w-full bg-black bg-opacity-20 lg:bg-transparent font-serif" x-data="{ open: false }">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div class="relative flex h-16 items-center justify-center">
 
