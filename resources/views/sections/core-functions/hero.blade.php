@@ -15,7 +15,7 @@
     management while growing the family’s wealth. These functions are designed to support the long-term financial,
     legal, and personal objectives of H.H. Sheikh Mohammed bin Faisal bin Sultan Al Qassimi and his blood
     line, while also safeguarding continuity, compliance, and resilience across generations. Each function is executed
-    with precision and discretion, while being consistent with the family’s ethos, values, and evolving priorities in a
+    with precision and discretion, while being consistent with the family’s ethos, values,  and evolving priorities in a <br>
     dynamic global landscape.
   </p>
 </x-hero-section>
