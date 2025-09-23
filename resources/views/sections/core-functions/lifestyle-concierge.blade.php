@@ -12,6 +12,6 @@ Our bespoke services extend beyond financial management to support the principal
     </div>
     <!-- Right image (jet & car) -->
     <div class=" w-full h-[200px] md:h-full flex items-center justify-end relative p-0 m-0 scroll-view">
-        <img src="/images/lifestyle-img.webp" alt="Lifestyle & Concierge Services" class="w-full h-full object-cover"/>
+        <img src="/images/lifestyle-img.jpeg" alt="Lifestyle & Concierge Services" class="w-full h-full object-cover"/>
     </div>
 </section>
