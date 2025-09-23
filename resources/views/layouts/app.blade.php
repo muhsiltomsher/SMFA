@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@yield('title')</title>
+    <link rel="icon" href="{{ asset('images/fav.png') }}" type="image/png">
 
     <!-- Tailwind CSS compiled via Vite -->
     @vite('resources/css/app.css')
