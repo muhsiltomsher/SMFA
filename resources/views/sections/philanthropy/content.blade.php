@@ -14,6 +14,6 @@ The Private Office works closely with trusted partners and organisations to ensu
     </div>
 
     <div class=" w-full   flex items-center justify-end relative p-0 m-0 scroll-view">
-        <img src="/images/philanthropy-img.jpeg"  alt="Philanthropy Palm" class="w-full md:h-full h-[300px] object-cover"/>
+        <img src="/images/philanthropy-img.jpg" alt="Philanthropy Palm" class="w-full md:h-full h-[300px] object-cover"/>
     </div>
 </section>
