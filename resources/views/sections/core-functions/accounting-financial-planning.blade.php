@@ -1,6 +1,6 @@
 <section class="w-full flex flex-col md:flex-row min-h-[480px] bg-white overflow-hidden">
 <div class="flex-none md:w-[50%] w-full h-auto md:h-auto p-0 md:p-0 scroll-view order-2 md:order-1">
-    <img src="/images/accounting-img.webp" alt="Accounting & Financial Reporting" class="w-full md:h-full h-[300px] object-cover square-image" />
+    <img src="/images/accounting-img.webp" alt="Accounting & Financial Reporting" class="w-full md:h-full object-cover square-image" />
 </div>
   <div class="flex-grow flex items-center relative bg-white scroll-view order-1 md:order-2">
     <img src="/images/bh_pattern.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-100 pointer-events-none" />

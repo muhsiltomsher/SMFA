@@ -17,6 +17,6 @@
   </div>
 
   <div class="w-full flex items-center justify-end relative p-0 m-0 scroll-view order-2">
-    <img src="/images/philanthropy-img.jpg" alt="Philanthropy Palm" class="w-full md:h-full h-[370px] object-cover" />
+    <img src="/images/philanthropy-img.jpg" alt="Philanthropy Palm" class="w-full md:h-full object-cover" />
   </div>
 </section>

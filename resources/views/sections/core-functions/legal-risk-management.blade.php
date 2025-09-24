@@ -1,7 +1,7 @@
 <section class="w-full flex flex-col md:flex-row min-h-[480px] bg-white overflow-hidden">
   <!-- Left image (scales of justice & book) -->
 <div class="flex-none md:w-[50%] w-full h-auto md:h-auto p-0 md:p-0 scroll-view order-2 md:order-1">
-    <img src="/images/legal-risk-img.webp" alt="Legal & Risk Management" class="w-full md:h-full h-[300px] object-cover square-image" />
+    <img src="/images/legal-risk-img.webp" alt="Legal & Risk Management" class="w-full md:h-full object-cover square-image" />
 </div>
 
   <!-- Right text -->

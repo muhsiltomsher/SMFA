@@ -1,6 +1,6 @@
 <section class="w-full flex flex-col md:flex-row min-h-[360px] bg-white overflow-hidden">
 <div class="flex-none md:w-[50%] w-full h-auto md:h-auto p-0 md:p-0 scroll-view order-2 md:order-1">
-    <img src="/images/contactus-img.webp" alt="Dubai Sunset" class="w-full md:h-full h-[300px] object-cover square-image" />
+    <img src="/images/contactus-img.webp" alt="Dubai Sunset" class="w-full md:h-full object-cover square-image" />
 </div>
 
 

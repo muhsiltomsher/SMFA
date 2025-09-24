@@ -1,7 +1,7 @@
 <section class="w-full flex flex-col xl:flex-row md:flex-row min-h-[480px] bg-white overflow-hidden">
   <!-- Left image: 33% width -->
 <div class="flex-none w-full md:w-1/2 h-auto p-0 md:p-0 order-2 md:order-1 scroll-view">
-    <img src="/images/strategy-img.jpg" alt="Strategy" class="w-full md:h-full h-[300px] object-cover square-image" />
+    <img src="/images/strategy-img.jpg" alt="Strategy" class="w-full md:h-full object-cover square-image" />
 </div>
   <!-- Right Content: 67% width -->
   <div class="flex-grow flex items-center relative bg-white order-1 md:order-2 scroll-view">
