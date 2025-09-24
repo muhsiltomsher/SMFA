@@ -1,6 +1,6 @@
 <section class="w-full flex flex-col md:flex-row min-h-[360px] bg-white overflow-hidden">
   <div class="flex-none w-full md:w-1/2 h-auto md:h-auto p-0 md:p-0 scroll-view order-2 md:order-1">
-    <img src="/images/corporate-governance-img.webp" alt="Corporate Governance Office" class="w-full md:h-full h-[300px] object-cover" />
+    <img src="/images/corporate-governance-img.webp" alt="Corporate Governance Office" class="w-full md:h-full  object-cover" />
   </div>
   <div class="w-full flex flex-col justify-center px-7 md:px-10 py-10 md:py-12 scroll-view order-1 md:order-2">
     <div class="relative z-10 max-w-xl w-full mx-auto">
