@@ -13,8 +13,10 @@
         </div>
 
         <!-- Right Image Column (40% width) -->
-        <div class="w-full xl:h-full flex justify-end items-center relative p-0 m-0 scroll-view">
-            <img src="/images/our-vision-img.webp" alt="Falcon" class="relative w-full h-full object-cover rounded-none" />
-        </div>
+<div class="w-full flex justify-end items-center relative p-0 m-0 scroll-view">
+    <img src="/images/our-vision-img.webp" alt="Falcon" class="relative w-full object-cover rounded-none square-image" />
+</div>
+
+
     </div>
 </section>

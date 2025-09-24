@@ -11,7 +11,7 @@
     </div>
   </div>
   <!-- Right image (40% width) -->
-  <div class="w-full h-[280px] md:h-full flex items-center justify-end relative p-0 m-0 order-2 scroll-view">
-    <img src="/images/legacy-img.jpg" alt="Legacy Values" class="w-full h-full object-cover rounded-none" />
-  </div>
+<div class="w-full h-[280px] md:h-full flex items-center justify-end relative p-0 m-0 order-2 scroll-view">
+    <img src="/images/legacy-img.jpg" alt="Legacy Values" class="w-full h-full object-cover rounded-none square-image" />
+</div>
 </section>

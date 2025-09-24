@@ -43,3 +43,11 @@
 .font-serif{
   font-family: "PT Serif", serif!important;
 }
+
+
+    @media (max-width: 768px) {
+        .square-image {
+            height: 100vw; /* Height = Viewport Width for a square aspect ratio */
+            width: 100vw;  /* Width = Viewport Width */
+        }
+    }

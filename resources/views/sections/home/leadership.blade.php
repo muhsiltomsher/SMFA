@@ -1,8 +1,9 @@
 <section class="w-full flex flex-col md:flex-row min-h-[480px] bg-white overflow-hidden">
   <!-- Left image: 33% width with consistent padding -->
-  <div class="flex-none md:w-[50%] w-full h-auto md:h-auto p-0 md:p-0 scroll-view order-2 md:order-1">
-    <img src="/images/leadership-img.webp" alt="Leadership Team" class="w-full h-full object-cover rounded-none border-none shadow-none" />
-  </div>
+<div class="flex-none md:w-[50%] w-full h-auto md:h-auto p-0 md:p-0 scroll-view order-2 md:order-1">
+    <img src="/images/leadership-img.webp" alt="Leadership Team" class="w-full h-full object-cover rounded-none border-none shadow-none square-image" />
+</div>
+
   <!-- Right content: 67% width with same padding -->
   <div class="flex-grow flex items-center relative bg-white scroll-view order-1 md:order-2">
     <img src="/images/white-texture.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-100 pointer-events-none" />
