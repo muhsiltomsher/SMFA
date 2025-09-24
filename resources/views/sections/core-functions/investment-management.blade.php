@@ -11,7 +11,7 @@
     </div>
   </div>
   <!-- Right image (40%) -->
-<div class="w-full h-[200px] md:h-full flex items-center justify-end relative p-0 m-0 order-2 scroll-view">
+<div class="w-full md:h-full flex items-center justify-end relative p-0 m-0 order-2 scroll-view">
     <img src="/images/investment.webp" alt="Investment Management" class="w-full h-full object-cover rounded-none square-image" />
 </div>
 </section>
