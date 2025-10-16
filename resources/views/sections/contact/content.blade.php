@@ -15,7 +15,12 @@
       </p>
       <div class="mb-4 text-[#544541] scroll-view">
         <p class="font-bold mb-2 text-md xl:text-[16px]">ADDRESS</p>
-        <p class="mb-3 font-serif font-normal">PO Box 926100</p>
+        <p class="mb-3 font-serif font-normal">Villa 352/16C, Umm Suqeim <br>  DM 130 Al Hamra St, Jumeirah 3 <br> PO Box 926100 <br>Dubai, UAE
+
+
+
+ 
+      </p>
       </div>
 
       <div class="my-8 xl:my-14 text-[#544541] scroll-view">
